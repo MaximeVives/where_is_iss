@@ -7,7 +7,7 @@ from data_manager import iss_pos
 
 def convert_coor_axe(lat, lng):
     x = (MAX_X_LNG * lng) / MAX_LNG
-    y = (((MAX_Y_LAT * lat) / MAX_LAT) * 0.82) - 30
+    y = (((MAX_Y_LAT * lat) / MAX_LAT) * 0.88) - 30
     return x, y
 
 
